@@ -5,47 +5,31 @@
   <p>This repository serves as a resource for the tutorial, <a href="https://www.freecodecamp.org/news/how-to-build-a-modern-documentation-site-with-vitepress/">How to Build a Modern Documentation Site with VitePress</a> posted on freeCodeCamp</p>
 </div>
 
-## Run project locally
+## 运行
 
-Use this command below to boot this project locally.
+使用下面的命令在本地启动这个项目.
 
 ```bash
-git clone https://github.com/Evavic44/adocs.git
+git clone https://github.com/qwe1356879/knowledge-base.git
 
-cd adocs
+cd knowledge-base
 
 npm install
 
-npm run docs:dev
+npm run dev
 ```
 
 Visit [https://localhost:5173](https://localhost:5173) to see your site
 
-## Build
+## 打包
 You may run this command to build the docs
 
 ```bash
-npm run docs:build
+npm run build
 ```
 
-## Folder Structure
+## 文件目录结构
 
 ```
-docs/
-├── .vitepress/
-│   ├── config.js
-│   └── theme/
-│       ├── index.js
-│       └── custom.css
-├── public/
-│   ├── logo.svg
-│   └── logo-big.svg
-├── about.md
-├── configs.md
-├── contact.md
-├── get-started.md
-├── guide.md
-├── index.md
-├── package.json
-└── README.md
+
 ```
