@@ -52,7 +52,22 @@ export default {
           { text: "前端工具库", collapsible: false },
           { text: "代码积累", collapsible: false },
           { text: "常见问题汇总", collapsible: false },
-          { text: "常用网站", collapsible: false },
+          { 
+            text: "常用网站", 
+            collapsible: false,
+            items: [
+              {
+                text: "在线工具",
+                link: "/shareweb/utils/index"
+              },
+              {
+                text: "图标",
+                link: "/shareweb/icon/index"
+              },
+            ],
+
+          
+        },
         ],
       },
     ],
